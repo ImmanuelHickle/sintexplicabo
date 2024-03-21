@@ -1,0 +1,36 @@
+{
+  "name": "sintexplicabo",
+  "version": "1.0.0",
+  "author": "ForestAnkunding",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImmanuelHickle/sintexplicabo.git"
+  },
+  "main": "export/utils-ts.js",
+  "types": "export/utils-ts.d.ts",
+  "scripts": {
+    "test": "ts-node test.ts",
+    "netTest": "ts-node testnet.ts",
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">= 12.14.1"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@types/node": "^14.6.1",
+    "ts-node": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  },
+  "keywords": [
+    "Properties",
+    "PropertiesJson",
+    "autem",
+    "placeat",
+    "aut",
+    "deserunt",
+    "stdout"
+  ]
+}
